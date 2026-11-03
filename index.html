@@ -388,5 +388,73 @@ footer { padding: 20px; }
 </div>
 </footer>
 
+<script>
+    const SPORTS_WORKER_URL = 'https://bet.liqdcasino.workers.dev/sports.html';
+
+    const toggleBtns = document.querySelectorAll('.toggle-btn');
+    const heroText = document.querySelector('.hero-text');
+    const watermarkSvg = document.querySelector('.watermark-logo svg');
+
+    toggleBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            toggleBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            if (btn.textContent === 'Sport') {
+                loadSports();
+            } else {
+                showHome();
+            }
+        });
+    });
+
+    function loadSports() {
+        heroText.style.opacity = '0';
+        heroText.style.transition = 'opacity 0.3s ease';
+
+        watermarkSvg.style.opacity = '1';
+        watermarkSvg.style.pointerEvents = 'auto';
+
+        fetch(SPORTS_WORKER_URL)
+            .then(response => {
+                if (!response.ok) throw new Error('Network response was not ok');
+                return response.text();
+            })
+            .then(html => {
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                const sportsContent = doc.querySelector('.sports-container');
+
+                if (sportsContent) {
+                    heroText.innerHTML = '';
+                    heroText.appendChild(sportsContent);
+                    heroText.style.opacity = '1';
+                    watermarkSvg.style.opacity = '0.05';
+                    watermarkSvg.style.pointerEvents = 'none';
+                } else {
+                    showHome();
+                }
+            })
+            .catch(error => {
+                console.error('Error loading sports:', error);
+                heroText.style.opacity = '1';
+                watermarkSvg.style.opacity = '0.05';
+                watermarkSvg.style.pointerEvents = 'none';
+                heroText.innerHTML = '<h1>Sports Bets</h1><p>Sports bets are under development</p>';
+            });
+    }
+
+    function showHome() {
+        heroText.innerHTML = '<h1>SPORTS BETTING<br>BOOKMAKER</h1><p class="subtitle">liqd.bet: bet on your win.</p>';
+        heroText.style.opacity = '1';
+        watermarkSvg.style.opacity = '0.2';
+        watermarkSvg.style.pointerEvents = 'none';
+    }
+
+    window.addEventListener('load', () => {
+        setTimeout(loadSports, 1000);
+    });
+</script>
+
 </body>
 </html>
