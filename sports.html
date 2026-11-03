@@ -76,7 +76,7 @@
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw.js').then(reg => {
-                caches.open('liqd-v2').then(cache => {
+                caches.open('liqd-v3').then(cache => {
                     cache.keys().then(keys => {
                         keys.forEach(key => {
                             if (key.url.match(/\.woff2?$/i)) {
