@@ -293,7 +293,7 @@
 
     <main>
         <div class="hero-text">
-            <h1>STEP INTO<br>THE OCTAGON</h1>
+            <h1>SPORTS BETTING<br>BOOKMAKER</h1>
             <p class="subtitle">Your bet. Your fight.</p>
         </div>
 
@@ -441,12 +441,15 @@
                 })
                 .catch(error => {
                     console.error('Error loading sports:', error);
-                    showHome();
+                    heroText.style.opacity = '1';
+                    watermarkSvg.style.opacity = '0.05';
+                    watermarkSvg.style.pointerEvents = 'none';
+                    heroText.innerHTML = '<h1>Sports Bets</h1><p>Sports bets are under development</p>';
                 });
         }
 
         function showHome() {
-            heroText.innerHTML = '<h1>STEP INTO<br>THE OCTAGON</h1><p class="subtitle">Your bet. Your fight.</p>';
+            heroText.innerHTML = '<h1>SPORTS BETTING<br>BOOKMAKER</h1><p class="subtitle">Your bet. Your fight.</p>';
             heroText.style.opacity = '1';
             watermarkSvg.style.opacity = '0.2';
             watermarkSvg.style.pointerEvents = 'none';
