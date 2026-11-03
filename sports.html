@@ -72,5 +72,30 @@
         <h1>Sports Bets</h1>
         <p>Sports bets are under development</p>
     </div>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js').then(reg => {
+                caches.open('liqd-v2').then(cache => {
+                    cache.keys().then(keys => {
+                        keys.forEach(key => {
+                            if (key.url.match(/\.woff2?$/i)) {
+                                cache.delete(key);
+                            }
+                        });
+                    });
+                });
+            }).catch(err => {});
+        }
+
+        const fonts = [
+            '/fonts/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2',
+            '/fonts/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBHMdazTgWw.woff2'
+        ];
+
+        fonts.forEach(font => {
+            fetch(font, { cache: 'no-store' });
+        });
+    </script>
 </body>
 </html>
