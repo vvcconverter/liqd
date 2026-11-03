@@ -4,21 +4,27 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>LIQD - a bookmaker for sports betting</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://www.google.com">
+<link rel="preconnect" href="https://maps.googleapis.com">
+<link rel="preload" as="font" href="https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBHMdazTgWw.woff2" type="font/woff2" crossorigin>
 <style>
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 100 900;
-  font-display: block;
-  src: url('https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2') format('woff2');
+  font-display: swap;
+  src: url('fonts/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2') format('woff2');
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 100 900;
-  font-display: block;
-  src: url('https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBHMdazTgWw.woff2') format('woff2');
+  font-display: swap;
+  src: url('fonts/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBHMdazTgWw.woff2') format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -356,7 +362,7 @@ footer {
       <ul>
         <li><a href="https://x.com/liqdcasino">X</a></li>
         <li>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63541879.04889628!2d-56.1534069!3d13.5791767!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x69b0a13348b63a51%3A0x1a1a95c4b285ede9!2sLIQD!5e0!3m2!1sru!2sru!4v1793632721867!5m2!1sru!2sru" width="100" height="99" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="LIQD on the map"></iframe>
+          <div class="map-container" data-map-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63541879.04889628!2d-56.1534069!3d13.5791767!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x69b0a13348b63a51%3A0x1a1a95c4b285ede9!2sLIQD!5e0!3m2!1sru!2sru!4v1793632721867!5m2!1sru!2sru"></div>
         </li>
       </ul>
     </div>
@@ -384,6 +390,10 @@ footer {
 </footer>
 
 <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js');
+  }
+
   const SPORTS_WORKER_URL = 'https://bet.liqdcasino.workers.dev/sports.html';
 
   const toggleBtns = document.querySelectorAll('.toggle-btn');
@@ -446,8 +456,19 @@ footer {
     watermarkSvg.style.pointerEvents = 'none';
   }
 
+  function loadMap() {
+    const containers = document.querySelectorAll('.map-container');
+    containers.forEach(container => {
+      const src = container.getAttribute('data-map-src');
+      if (src) {
+        container.innerHTML = '<iframe src="' + src + '" width="100" height="99" style="border:0;" allowfullscreen="" referrerpolicy="strict-origin-when-cross-origin" title="LIQD on the map"></iframe>';
+      }
+    });
+  }
+
   window.addEventListener('load', () => {
     setTimeout(loadSports, 1000);
+    setTimeout(loadMap, 1000);
   });
 </script>
 
