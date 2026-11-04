@@ -1,135 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="refresh" content="0; URL=https://liqd.com/?invite=krit&auth=register">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://liqd.com/?invite=krit">
-    <title>Sports bookmeker - LIQD</title>
-<link rel="canonical" href="https://liqd.bet/sports.html">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
-<link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="theme-color" content="#000000">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://liqd.bet/sports.html">
-    <meta property="og:title" content="LIQD - Sports Betting Bookmaker">
-    <meta property="og:description" content="LIQD - a bookmaker for sports betting. Bet on your win.">
-    <meta property="og:image" content="https://liqd.bet/favicon/web-app-manifest-512x512.png">
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://liqd.bet/sports.html">
-    <meta property="twitter:title" content="LIQD - Sports Betting Bookmaker">
-    <meta property="twitter:description" content="LIQD - a bookmaker for sports betting. Bet on your win.">
-    <meta property="twitter:image" content="https://liqd.bet/favicon/web-app-manifest-512x512.png">
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "LIQD",
-      "url": "https://liqd.bet/sports.html",
-      "image": "https://liqd.bet/favicon/web-app-manifest-512x512.png",
-      "description": "LIQD - Sports Betting Bookmaker",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://liqd.bet/sports.html?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    }
-    </script>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            background-color: #000000;
-            color: #ffffff;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .sports-container {
-            text-align: center;
-            padding: 40px;
-        }
-
-        .sports-container h1 {
-            font-size: 48px;
-            font-weight: 700;
-            text-transform: uppercase;
-            margin-bottom: 16px;
-        }
-
-        .sports-container p {
-            font-size: 18px;
-            color: #888888;
-        }
-
-        .sports-container svg {
-            width: 200px;
-            height: auto;
-            margin-bottom: 32px;
-        }
-
-        @media (max-width: 768px) {
-            .sports-container h1 {
-                font-size: 32px;
-            }
-            .sports-container p {
-                font-size: 14px;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LIQD - Sports Betting Bookmaker</title>
+<meta name="description" content="LIQD - a bookmaker for sports betting. Bet on your win.">
+<meta property="og:description" content="LIQD - a bookmaker for sports betting. Bet on your win.">
+<meta property="twitter:description" content="LIQD - a bookmaker for sports betting. Bet on your win.">
+<style>
+.sports-container {
+  padding: 20px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+.sports-container h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.sports-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+.sport-item {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+.sport-item:hover {
+  border-color: #2563eb;
+}
+.sport-item h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+</style>
 </head>
 <body>
-    <div class="sports-container">
-        <svg viewBox="0 0 80 20" xmlns="http://www.w3.org/2000/svg" aria-label="liqd.bet logo" style="display:block;">
-            <defs>
-                <g id="liqdLogoS">
-                    <path d="M53.4112 20C55.1743 20 56.6036 18.549 56.6036 16.7592C56.6036 14.9694 55.1743 13.5184 53.4112 13.5184C51.6481 13.5184 50.2188 14.9694 50.2188 16.7592C50.2188 18.549 51.6481 20 53.4112 20Z"/>
-                    <path d="M43.3799 6.57832C45.2265 4.70371 48.2285 4.70371 50.072 6.57832C51.9156 8.45293 51.9186 11.5003 50.072 13.3718C48.2254 15.2433 45.2235 15.2465 43.3799 13.3718C41.5364 11.4972 41.5333 8.44982 43.3799 6.57832ZM39.9048 3.05056C36.1378 6.87464 36.1378 13.0786 39.9048 16.9027C43.6718 20.7268 49.7832 20.7268 53.5502 16.9027C57.3172 13.0786 57.3172 6.87464 53.5502 3.05056C49.7832 -0.773526 43.6718 -0.773526 39.9048 3.05056Z"/>
-                    <path d="M29.2626 2.53268C29.2626 1.15455 28.1621 0.0373535 26.8045 0.0373535C25.4469 0.0373535 24.3464 1.15455 24.3464 2.53268V16.728C24.3464 18.1061 25.4469 19.2233 26.8045 19.2233C28.1621 19.2233 29.2626 18.1061 29.2626 16.728V2.53268Z"/>
-                    <path d="M13.2766 19.4541H9.37445C4.19715 19.4541 0 15.1933 0 9.93755V2.53268C0 1.15401 1.09998 0.0373535 2.45807 0.0373535C3.81615 0.0373535 4.91613 1.15401 4.91613 2.53268V9.90636C4.91613 12.4235 6.9256 14.4666 9.40825 14.4666H13.2797C14.6378 14.4666 15.7378 15.5832 15.7378 16.9619C15.7378 18.3406 14.6378 19.4572 13.2797 19.4572L13.2766 19.4541Z"/>
-                    <path d="M70.2038 19.4542H65.7363C64.3782 19.4542 63.2782 18.3375 63.2782 16.9588C63.2782 15.5802 64.3782 14.4635 65.7363 14.4635H70.2714C72.7879 14.4635 74.9633 12.5047 75.08 9.95322C75.206 7.23956 73.0644 4.99065 70.4189 4.99065H65.7332C64.3751 4.99065 63.2751 3.87399 63.2751 2.49532C63.2751 1.11666 64.3751 0 65.7332 0H70.4189C75.7959 0 80.1498 4.51654 79.9961 10.0094C79.8487 15.3088 75.4211 19.4573 70.2007 19.4573L70.2038 19.4542Z"/>
-                </g>
-            </defs>
-            <use fill="#ffffff" href="#liqdLogoS"/>
-        </svg>
-        <h1>Sports Bets</h1>
-        <p>Sports bets are under development</p>
-    </div>
-
-    <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js').then(reg => {
-                caches.open('liqd-v3').then(cache => {
-                    cache.keys().then(keys => {
-                        keys.forEach(key => {
-                            if (key.url.match(/\.woff2?$/i)) {
-                                cache.delete(key);
-                            }
-                        });
-                    });
-                });
-            }).catch(err => {});
-        }
-
-        const fonts = [
-            '/fonts/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2',
-            '/fonts/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBHMdazTgWw.woff2'
-        ];
-
-        fonts.forEach(font => {
-            fetch(font, { cache: 'no-store' });
-        });
-    </script>
+<div class="sports-container">
+  <h2>Sports Betting</h2>
+  <div class="sports-list">
+    <div class="sport-item"><h3>Football</h3></div>
+    <div class="sport-item"><h3>Basketball</h3></div>
+    <div class="sport-item"><h3>Tennis</h3></div>
+    <div class="sport-item"><h3>Hockey</h3></div>
+    <div class="sport-item"><h3>Baseball</h3></div>
+    <div class="sport-item"><h3>MMA</h3></div>
+  </div>
+</div>
 </body>
 </html>

@@ -10,6 +10,7 @@
 <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
 <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
+<meta name="description" content="LIQD - a bookmaker for sports betting. Bet on your win.">
 <meta name="theme-color" content="#000000">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://liqd.bet/">
@@ -224,7 +225,7 @@ footer {
 
 .legal-text {
   font-size: 12px;
-  color: #555555;
+  color: #999999;
   line-height: 1.6;
   margin-bottom: 40px;
   max-width: 1200px;
@@ -259,7 +260,7 @@ footer {
 
 .copyright {
   font-size: 12px;
-  color: #555555;
+  color: #999999;
 }
 
 .certification-icons {
@@ -322,7 +323,8 @@ footer {
     <div class="toggle-btn active">Sport</div>
   </div>
   <div class="logo">
-    <svg viewBox="0 0 80 20" xmlns="http://www.w3.org/2000/svg" role="img" style="display:block;">
+    <svg viewBox="0 0 80 20" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="LIQD" style="display:block;">
+      <title>LIQD</title>
       <defs>
         <clipPath id="liqd-header-clip">
           <rect height="20" width="0" x="0" y="0">
@@ -342,11 +344,12 @@ footer {
 
 <main>
   <div class="hero-text">
+    <h2>LIQD</h2>
     <h1>SPORTS BETTING<br>BOOKMAKER</h1>
     <p class="subtitle">liqd.bet: bet on your win.</p>
   </div>
   <div class="watermark-logo">
-    <svg viewBox="0 0 80 20" xmlns="http://www.w3.org/2000/svg" style="display:block;">
+    <svg viewBox="0 0 80 20" xmlns="http://www.w3.org/2000/svg" style="display:block;" aria-hidden="true">
       <use fill="#ffffff" href="#liqd-logo-paths"/>
     </svg>
   </div>
@@ -361,20 +364,20 @@ footer {
 <footer>
   <div class="footer-links">
     <div class="footer-column">
-      <h3>Support</h3>
+      <h4>Support</h4>
       <ul>
         <li><a href="#">Live Support</a></li>
         <li><a href="#">Responsible Gambling</a></li>
       </ul>
     </div>
     <div class="footer-column">
-      <h3>Platform</h3>
+      <h4>Platform</h4>
       <ul>
         <li><a href="#">Provably Fair</a></li>
       </ul>
     </div>
     <div class="footer-column">
-      <h3>Policy</h3>
+      <h4>Policy</h4>
       <ul>
         <li><a href="#">Terms of Service</a></li>
         <li><a href="#">Cookie Policy</a></li>
@@ -384,7 +387,7 @@ footer {
       </ul>
     </div>
     <div class="footer-column">
-      <h3>Community</h3>
+      <h4>Community</h4>
       <ul>
         <li><a href="https://x.com/liqdcasino">X</a></li>
         <li>
@@ -471,12 +474,12 @@ footer {
         heroText.style.opacity = '1';
         watermarkSvg.style.opacity = '0.05';
         watermarkSvg.style.pointerEvents = 'none';
-        heroText.innerHTML = '<h1>Sports Bets</h1><p>Sports bets are under development</p>';
+        heroText.innerHTML = '<h2>Sports Bets</h2><p>Sports bets are under development</p>';
       });
   }
 
   function showHome() {
-    heroText.innerHTML = '<h1>SPORTS BETTING<br>BOOKMAKER</h1><p class="subtitle">liqd.bet: bet on your win.</p>';
+    heroText.innerHTML = '<h2>LIQD</h2><h1>SPORTS BETTING<br>BOOKMAKER</h1><p class="subtitle">liqd.bet: bet on your win.</p>';
     heroText.style.opacity = '1';
     watermarkSvg.style.opacity = '0.2';
     watermarkSvg.style.pointerEvents = 'none';
