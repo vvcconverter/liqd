@@ -3,6 +3,7 @@ const ASSETS = [
   '/',
   '/index.html',
   '/sports.html',
+  '/manifest.json',
   '/fonts/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2',
   '/fonts/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBHMdazTgWw.woff2',
   'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63541879.04889628!2d-56.1534069!3d13.5791767!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x69b0a13348b63a51%3A0x1a1a95c4b285ede9!2sLIQD!5e0!3m2!1sru!2sru!4v1793632721867!5m2!1sru!2sru'
