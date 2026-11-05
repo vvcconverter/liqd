@@ -1,0 +1,730 @@
+[
+  {
+    "slug": "liqd",
+    "name": "LIQD"
+  },
+  {
+    "slug": "liqd-bet",
+    "name": "LIQD.bet"
+  },
+  {
+    "slug": "liqd-casino",
+    "name": "LIQD Casino"
+  },
+  {
+    "slug": "лиqd",
+    "name": "LIQD"
+  },
+  {
+    "slug": "ликвиd",
+    "name": "LIQD"
+  },
+  {
+    "slug": "ликвит",
+    "name": "LIQD"
+  },
+  {
+    "slug": "liquid",
+    "name": "Liquid"
+  },
+  {
+    "slug": "liquid-bet",
+    "name": "Liquid bet"
+  },
+  {
+    "slug": "жидкий",
+    "name": "Жидкий"
+  },
+  {
+    "slug": "жидкость",
+    "name": "Жидкость"
+  },
+  {
+    "slug": "жидкий-liqd",
+    "name": "Жидкий LIQD"
+  },
+  {
+    "slug": "ridkiy",
+    "name": "Рідкий"
+  },
+  {
+    "slug": "ridyna",
+    "name": "Рідина"
+  },
+  {
+    "slug": "liquido",
+    "name": "Líquido"
+  },
+  {
+    "slug": "liquido-es",
+    "name": "Líquido"
+  },
+  {
+    "slug": "liquido-it",
+    "name": "Liquido"
+  },
+  {
+    "slug": "liquido-pt",
+    "name": "Líquido"
+  },
+  {
+    "slug": "liquide",
+    "name": "Liquide"
+  },
+  {
+    "slug": "flussig",
+    "name": "Flüssig"
+  },
+  {
+    "slug": "flussigkeit",
+    "name": "Flüssigkeit"
+  },
+  {
+    "slug": "vloeibaar",
+    "name": "Vloeibaar"
+  },
+  {
+    "slug": "vloeistof",
+    "name": "Vloeistof"
+  },
+  {
+    "slug": "flytande",
+    "name": "Flytande"
+  },
+  {
+    "slug": "vatska",
+    "name": "Vätska"
+  },
+  {
+    "slug": "flytende",
+    "name": "Flytende"
+  },
+  {
+    "slug": "vaeske",
+    "name": "Væske"
+  },
+  {
+    "slug": "flydende",
+    "name": "Flydende"
+  },
+  {
+    "slug": "nestemainen",
+    "name": "Nestemäinen"
+  },
+  {
+    "slug": "neste",
+    "name": "Neste"
+  },
+  {
+    "slug": "plynny",
+    "name": "Płynny"
+  },
+  {
+    "slug": "ciecz",
+    "name": "Ciecz"
+  },
+  {
+    "slug": "kapalina",
+    "name": "Kapalina"
+  },
+  {
+    "slug": "kapalny",
+    "name": "Kapalný"
+  },
+  {
+    "slug": "kvapalina",
+    "name": "Kvapalina"
+  },
+  {
+    "slug": "tekuci",
+    "name": "Tekući"
+  },
+  {
+    "slug": "tecnost",
+    "name": "Tečnost"
+  },
+  {
+    "slug": "techen",
+    "name": "Течен"
+  },
+  {
+    "slug": "technost",
+    "name": "Течност"
+  },
+  {
+    "slug": "lichid",
+    "name": "Lichid"
+  },
+  {
+    "slug": "folyadek",
+    "name": "Folyadék"
+  },
+  {
+    "slug": "folyékony",
+    "name": "Folyékony"
+  },
+  {
+    "slug": "sivi",
+    "name": "Sıvı"
+  },
+  {
+    "slug": "ygro",
+    "name": "Υγρό"
+  },
+  {
+    "slug": "sael",
+    "name": "سائل"
+  },
+  {
+    "slug": "nozel",
+    "name": "נוזל"
+  },
+  {
+    "slug": "yeti",
+    "name": "液体"
+  },
+  {
+    "slug": "ekitai",
+    "name": "液体"
+  },
+  {
+    "slug": "aekche",
+    "name": "액체"
+  },
+  {
+    "slug": "taral",
+    "name": "तरल"
+  },
+  {
+    "slug": "khong-laew",
+    "name": "ของเหลว"
+  },
+  {
+    "slug": "chat-long",
+    "name": "Chất lỏng"
+  },
+  {
+    "slug": "cairan",
+    "name": "Cairan"
+  },
+  {
+    "slug": "cair",
+    "name": "Cair"
+  },
+  {
+    "slug": "likvido",
+    "name": "Likvido"
+  },
+  {
+    "slug": "sports-betting",
+    "name": "Sports Betting"
+  },
+  {
+    "slug": "спортивные-ставки",
+    "name": "Спортивные ставки"
+  },
+  {
+    "slug": "sportsbook",
+    "name": "Sportsbook LIQD"
+  },
+  {
+    "slug": "букмекер",
+    "name": "Букмекер LIQD"
+  },
+  {
+    "slug": "bookmaker",
+    "name": "Bookmaker LIQD"
+  },
+  {
+    "slug": "online-bookmaker",
+    "name": "Online Bookmaker LIQD"
+  },
+  {
+    "slug": "онлайн-букмекер",
+    "name": "Онлайн букмекер LIQD"
+  },
+  {
+    "slug": "bet-on-sports",
+    "name": "Bet on Sports LIQD"
+  },
+  {
+    "slug": "ставки-на-спорт",
+    "name": "Ставки на спорт LIQD"
+  },
+  {
+    "slug": "sports-bets",
+    "name": "Sports Bets LIQD"
+  },
+  {
+    "slug": "live-betting",
+    "name": "Live Betting LIQD"
+  },
+  {
+    "slug": "лайв-ставки",
+    "name": "Лайв ставки LIQD"
+  },
+  {
+    "slug": "odds",
+    "name": "Odds LIQD"
+  },
+  {
+    "slug": "коэффициенты",
+    "name": "Коэффициенты LIQD"
+  },
+  {
+    "slug": "football-betting",
+    "name": "Football Betting LIQD"
+  },
+  {
+    "slug": "ставки-на-футбол",
+    "name": "Ставки на футбол LIQD"
+  },
+  {
+    "slug": "soccer-betting",
+    "name": "Soccer Betting LIQD"
+  },
+  {
+    "slug": "basketball-betting",
+    "name": "Basketball Betting LIQD"
+  },
+  {
+    "slug": "ставки-на-баскетбол",
+    "name": "Ставки на баскетбол LIQD"
+  },
+  {
+    "slug": "tennis-betting",
+    "name": "Tennis Betting LIQD"
+  },
+  {
+    "slug": "ставки-на-теннис",
+    "name": "Ставки на теннис LIQD"
+  },
+  {
+    "slug": "hockey-betting",
+    "name": "Hockey Betting LIQD"
+  },
+  {
+    "slug": "ставки-на-хоккей",
+    "name": "Ставки на хоккей LIQD"
+  },
+  {
+    "slug": "baseball-betting",
+    "name": "Baseball Betting LIQD"
+  },
+  {
+    "slug": "ставки-на-бейсбол",
+    "name": "Ставки на бейсбол LIQD"
+  },
+  {
+    "slug": "mma-betting",
+    "name": "MMA Betting LIQD"
+  },
+  {
+    "slug": "ставки-на-мма",
+    "name": "Ставки на ММА LIQD"
+  },
+  {
+    "slug": "ufc-betting",
+    "name": "UFC Betting LIQD"
+  },
+  {
+    "slug": "esports-betting",
+    "name": "Esports Betting LIQD"
+  },
+  {
+    "slug": "ставки-на-киберспорт",
+    "name": "Ставки на киберспорт LIQD"
+  },
+  {
+    "slug": "casino",
+    "name": "Casino LIQD"
+  },
+  {
+    "slug": "казино",
+    "name": "Казино LIQD"
+  },
+  {
+    "slug": "online-casino",
+    "name": "Online Casino LIQD"
+  },
+  {
+    "slug": "онлайн-казино",
+    "name": "Онлайн казино LIQD"
+  },
+  {
+    "slug": "provably-fair",
+    "name": "Provably Fair"
+  },
+  {
+    "slug": "crypto-betting",
+    "name": "Crypto Betting LIQD"
+  },
+  {
+    "slug": "крипто-ставки",
+    "name": "Крипто ставки LIQD"
+  },
+  {
+    "slug": "crypto-casino",
+    "name": "Crypto Casino LIQD"
+  },
+  {
+    "slug": "крипто-казино",
+    "name": "Крипто казино LIQD"
+  },
+  {
+    "slug": "responsible-gambling",
+    "name": "Responsible Gambling"
+  },
+  {
+    "slug": "ответственная-игра",
+    "name": "Ответственная игра LIQD"
+  },
+  {
+    "slug": "sportsbook-rules",
+    "name": "Sportsbook Rules"
+  },
+  {
+    "slug": "правила-букмекера",
+    "name": "Правила букмекера LIQD"
+  },
+  {
+    "slug": "liqd-sport",
+    "name": "LIQD Sport"
+  },
+  {
+    "slug": "liqd-sports",
+    "name": "LIQD Sports"
+  },
+  {
+    "slug": "liqd-football",
+    "name": "LIQD Football"
+  },
+  {
+    "slug": "liqd-basketball",
+    "name": "LIQD Basketball"
+  },
+  {
+    "slug": "liqd-tennis",
+    "name": "LIQD Tennis"
+  },
+  {
+    "slug": "liqd-hockey",
+    "name": "LIQD Hockey"
+  },
+  {
+    "slug": "liqd-baseball",
+    "name": "LIQD Baseball"
+  },
+  {
+    "slug": "liqd-mma",
+    "name": "LIQD MMA"
+  },
+  {
+    "slug": "bet-liqd",
+    "name": "Bet LIQD"
+  },
+  {
+    "slug": "ставки-liqd",
+    "name": "Ставки LIQD"
+  },
+  {
+    "slug": "liqdcasino",
+    "name": "LIQD Casino"
+  },
+  {
+    "slug": "x-liqdcasino",
+    "name": "X @liqdcasino"
+  },
+  {
+    "slug": "live-support",
+    "name": "Live Support"
+  },
+  {
+    "slug": "terms-of-service",
+    "name": "Terms of Service"
+  },
+  {
+    "slug": "cookie-policy",
+    "name": "Cookie Policy"
+  },
+  {
+    "slug": "privacy-policy",
+    "name": "Privacy Policy"
+  },
+  {
+    "slug": "aml-policy",
+    "name": "AML Policy"
+  },
+  {
+    "slug": "sportsbook-rules-general-rules",
+    "name": "Sportsbook Rules — I. General Rules"
+  },
+  {
+    "slug": "general-rules",
+    "name": "I. General Rules"
+  },
+  {
+    "slug": "sportsbook-rules-soccer",
+    "name": "Sportsbook Rules — Soccer"
+  },
+  {
+    "slug": "soccer",
+    "name": "Soccer"
+  },
+  {
+    "slug": "sportsbook-rules-tennis",
+    "name": "Sportsbook Rules — Tennis"
+  },
+  {
+    "slug": "tennis",
+    "name": "Tennis"
+  },
+  {
+    "slug": "sportsbook-rules-basketball",
+    "name": "Sportsbook Rules — Basketball"
+  },
+  {
+    "slug": "basketball",
+    "name": "Basketball"
+  },
+  {
+    "slug": "sportsbook-rules-american-football",
+    "name": "Sportsbook Rules — American Football"
+  },
+  {
+    "slug": "american-football",
+    "name": "American Football"
+  },
+  {
+    "slug": "sportsbook-rules-ice-hockey",
+    "name": "Sportsbook Rules — Ice Hockey"
+  },
+  {
+    "slug": "ice-hockey",
+    "name": "Ice Hockey"
+  },
+  {
+    "slug": "sportsbook-rules-baseball",
+    "name": "Sportsbook Rules — Baseball"
+  },
+  {
+    "slug": "baseball",
+    "name": "Baseball"
+  },
+  {
+    "slug": "sportsbook-rules-handball",
+    "name": "Sportsbook Rules — Handball"
+  },
+  {
+    "slug": "handball",
+    "name": "Handball"
+  },
+  {
+    "slug": "sportsbook-rules-volleyball",
+    "name": "Sportsbook Rules — Volleyball"
+  },
+  {
+    "slug": "volleyball",
+    "name": "Volleyball"
+  },
+  {
+    "slug": "sportsbook-rules-beach-volleyball",
+    "name": "Sportsbook Rules — Beach Volleyball"
+  },
+  {
+    "slug": "beach-volleyball",
+    "name": "Beach Volleyball"
+  },
+  {
+    "slug": "sportsbook-rules-futsal",
+    "name": "Sportsbook Rules — Futsal"
+  },
+  {
+    "slug": "futsal",
+    "name": "Futsal"
+  },
+  {
+    "slug": "sportsbook-rules-badminton",
+    "name": "Sportsbook Rules — Badminton"
+  },
+  {
+    "slug": "badminton",
+    "name": "Badminton"
+  },
+  {
+    "slug": "sportsbook-rules-rugby-union-and-rugby-league",
+    "name": "Sportsbook Rules — Rugby Union and Rugby League"
+  },
+  {
+    "slug": "rugby-union-and-rugby-league",
+    "name": "Rugby Union and Rugby League"
+  },
+  {
+    "slug": "sportsbook-rules-darts",
+    "name": "Sportsbook Rules — Darts"
+  },
+  {
+    "slug": "darts",
+    "name": "Darts"
+  },
+  {
+    "slug": "sportsbook-rules-snooker",
+    "name": "Sportsbook Rules — Snooker"
+  },
+  {
+    "slug": "snooker",
+    "name": "Snooker"
+  },
+  {
+    "slug": "sportsbook-rules-table-tennis",
+    "name": "Sportsbook Rules — Table Tennis"
+  },
+  {
+    "slug": "table-tennis",
+    "name": "Table Tennis"
+  },
+  {
+    "slug": "sportsbook-rules-bowls",
+    "name": "Sportsbook Rules — Bowls"
+  },
+  {
+    "slug": "bowls",
+    "name": "Bowls"
+  },
+  {
+    "slug": "sportsbook-rules-cricket",
+    "name": "Sportsbook Rules — Cricket"
+  },
+  {
+    "slug": "cricket",
+    "name": "Cricket"
+  },
+  {
+    "slug": "sportsbook-rules-squash",
+    "name": "Sportsbook Rules — Squash"
+  },
+  {
+    "slug": "squash",
+    "name": "Squash"
+  },
+  {
+    "slug": "sportsbook-rules-aussie-rules-football",
+    "name": "Sportsbook Rules — Aussie Rules Football"
+  },
+  {
+    "slug": "aussie-rules-football",
+    "name": "Aussie Rules Football"
+  },
+  {
+    "slug": "sportsbook-rules-boxing",
+    "name": "Sportsbook Rules — Boxing"
+  },
+  {
+    "slug": "boxing",
+    "name": "Boxing"
+  },
+  {
+    "slug": "sportsbook-rules-mma",
+    "name": "Sportsbook Rules — MMA"
+  },
+  {
+    "slug": "mma",
+    "name": "MMA"
+  },
+  {
+    "slug": "sportsbook-rules-golf",
+    "name": "Sportsbook Rules — Golf"
+  },
+  {
+    "slug": "golf",
+    "name": "Golf"
+  },
+  {
+    "slug": "sportsbook-rules-motorcycle-racing",
+    "name": "Sportsbook Rules — Motorcycle Racing"
+  },
+  {
+    "slug": "motorcycle-racing",
+    "name": "Motorcycle Racing"
+  },
+  {
+    "slug": "sportsbook-rules-athletics",
+    "name": "Sportsbook Rules — Athletics"
+  },
+  {
+    "slug": "athletics",
+    "name": "Athletics"
+  },
+  {
+    "slug": "sportsbook-rules-winter-sports",
+    "name": "Sportsbook Rules — Winter Sports"
+  },
+  {
+    "slug": "winter-sports",
+    "name": "Winter Sports"
+  },
+  {
+    "slug": "sportsbook-rules-formula-1",
+    "name": "Sportsbook Rules — Formula 1"
+  },
+  {
+    "slug": "formula-1",
+    "name": "Formula 1"
+  },
+  {
+    "slug": "sportsbook-rules-chess",
+    "name": "Sportsbook Rules — Chess"
+  },
+  {
+    "slug": "chess",
+    "name": "Chess"
+  },
+  {
+    "slug": "sportsbook-rules-kabaddi",
+    "name": "Sportsbook Rules — Kabaddi"
+  },
+  {
+    "slug": "kabaddi",
+    "name": "Kabaddi"
+  },
+  {
+    "slug": "sportsbook-rules-cycling",
+    "name": "Sportsbook Rules — Cycling"
+  },
+  {
+    "slug": "cycling",
+    "name": "Cycling"
+  },
+  {
+    "slug": "sportsbook-rules-esports",
+    "name": "Sportsbook Rules — III. Esports"
+  },
+  {
+    "slug": "esports",
+    "name": "III. Esports"
+  },
+  {
+    "slug": "sportsbook-rules-esports-solution-betting",
+    "name": "Sportsbook Rules — IV. Esports Solution Betting"
+  },
+  {
+    "slug": "esports-solution-betting",
+    "name": "IV. Esports Solution Betting"
+  },
+  {
+    "slug": "sportsbook-rules-greyhound-horse-and-harness-racing",
+    "name": "Sportsbook Rules — V. Greyhound, Horse and Harness Racing"
+  },
+  {
+    "slug": "greyhound-horse-and-harness-racing",
+    "name": "V. Greyhound, Horse and Harness Racing"
+  },
+  {
+    "slug": "sportsbook-rules-predictions",
+    "name": "Sportsbook Rules — VI. Predictions"
+  },
+  {
+    "slug": "predictions",
+    "name": "VI. Predictions"
+  }
+]
