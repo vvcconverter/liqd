@@ -1,4 +1,4 @@
-const CACHE_NAME = 'liqd-v6';
+const CACHE_NAME = 'liqd-v7';
 const ASSETS = [
   '/',
   '/index.html',
@@ -14,6 +14,20 @@ self.addEventListener('install', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
+  const reqUrl = new URL(event.request.url);
+  const frameId = reqUrl.searchParams.get('id');
+  const isLiqdFrame = frameId && /^liqd\d+$/.test(frameId);
+
+  // ?id=liqdN — только состояние URL/якоря, не отдельный сетевой ресурс
+  if (isLiqdFrame && reqUrl.origin === new URL(self.registration.scope).origin) {
+    event.respondWith(
+      caches.match('/index.html')
+        .then((cached) => cached || caches.match('/') || fetch('/index.html'))
+        .catch(() => new Response('', { status: 503, statusText: 'Offline' }))
+    );
+    return;
+  }
+
   const isFontRequest = event.request.url.match(/\.woff2?$/i);
 
   if (isFontRequest) {
@@ -33,13 +47,22 @@ self.addEventListener('fetch', (event) => {
   } else {
     event.respondWith(
       caches.match(event.request).then((cached) => {
-        return cached || fetch(event.request).then((response) => {
-          return caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, response.clone());
+        if (cached) return cached;
+        return fetch(event.request).then((response) => {
+          if (!response || !response.ok || event.request.method !== 'GET') {
             return response;
-          });
+          }
+          const cloned = response.clone();
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, cloned);
+          }).catch(() => {});
+          return response;
         });
-      })
+      }).catch(() =>
+        fetch(event.request).catch(() =>
+          new Response('', { status: 503, statusText: 'Offline' })
+        )
+      )
     );
   }
 });
