@@ -1,4 +1,4 @@
-const CACHE_NAME = 'liqd-v5';
+const CACHE_NAME = 'liqd-v6';
 const ASSETS = [
   '/',
   '/index.html',
@@ -14,16 +14,6 @@ self.addEventListener('install', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  const reqUrl = new URL(event.request.url);
-  const frameId = reqUrl.searchParams.get('id');
-  const frameMatch = frameId && /^liqd(\d+)$/.exec(frameId);
-  if (frameMatch && event.request.destination === 'image') {
-    const n = frameMatch[1];
-    const framePath = new URL('liqd-casino/liqd' + n + '.webp', self.registration.scope).href;
-    event.respondWith(fetch(framePath, { credentials: 'same-origin' }));
-    return;
-  }
-
   const isFontRequest = event.request.url.match(/\.woff2?$/i);
 
   if (isFontRequest) {
