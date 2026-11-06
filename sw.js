@@ -1,10 +1,24 @@
-const CACHE_NAME = 'liqd-v7';
+const CACHE_NAME = 'liqd-v9';
 const ASSETS = [
   '/',
   '/index.html',
   '/sports.html',
   '/manifest.json'
 ];
+
+function isImageUrl(url) {
+  return /\.(webp|png|jpe?g|gif|svg|avif|ico)(\?|$)/i.test(url.pathname)
+    || /\/liqd-casino\//i.test(url.pathname);
+}
+
+function isImageRequest(request, url) {
+  return request.destination === 'image' || isImageUrl(url);
+}
+
+function isLiqdFrameUrl(url) {
+  const id = url.searchParams.get('id');
+  return id && /^liqd\d+$/.test(id);
+}
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -15,10 +29,13 @@ self.addEventListener('install', (event) => {
 
 self.addEventListener('fetch', (event) => {
   const reqUrl = new URL(event.request.url);
-  const frameId = reqUrl.searchParams.get('id');
-  const isLiqdFrame = frameId && /^liqd\d+$/.test(frameId);
 
-  // ?id=liqdN — только состояние URL/якоря, не отдельный сетевой ресурс
+  if (isImageRequest(event.request, reqUrl)) {
+    return;
+  }
+
+  const isLiqdFrame = isLiqdFrameUrl(reqUrl);
+
   if (isLiqdFrame && reqUrl.origin === new URL(self.registration.scope).origin) {
     event.respondWith(
       caches.match('/index.html')
@@ -52,6 +69,9 @@ self.addEventListener('fetch', (event) => {
           if (!response || !response.ok || event.request.method !== 'GET') {
             return response;
           }
+          if (isImageRequest(event.request, reqUrl) || isLiqdFrameUrl(reqUrl)) {
+            return response;
+          }
           const cloned = response.clone();
           caches.open(CACHE_NAME).then((cache) => {
             cache.put(event.request, cloned);
@@ -68,12 +88,22 @@ self.addEventListener('fetch', (event) => {
 });
 
 self.addEventListener('activate', (event) => {
-  event.waitUntil(
-    caches.keys().then((keys) => {
-      return Promise.all(
-        keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key))
-      );
-    })
-  );
+  event.waitUntil((async () => {
+    const keys = await caches.keys();
+    await Promise.all(
+      keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key))
+    );
+
+    const cache = await caches.open(CACHE_NAME);
+    const requests = await cache.keys();
+    await Promise.all(
+      requests
+        .filter((req) => {
+          const u = new URL(req.url);
+          return isImageUrl(u) || isLiqdFrameUrl(u);
+        })
+        .map((req) => cache.delete(req))
+    );
+  })());
   self.clients.claim();
 });
