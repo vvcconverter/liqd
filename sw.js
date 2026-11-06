@@ -1,4 +1,4 @@
-const CACHE_NAME = 'liqd-v9';
+const CACHE_NAME = 'liqd-v10';
 const ASSETS = [
   '/',
   '/index.html',
@@ -6,16 +6,14 @@ const ASSETS = [
   '/manifest.json'
 ];
 
-function isImageUrl(url) {
+function isImageRequest(request, url) {
+  if (request.destination === 'image') return true;
   return /\.(webp|png|jpe?g|gif|svg|avif|ico)(\?|$)/i.test(url.pathname)
     || /\/liqd-casino\//i.test(url.pathname);
 }
 
-function isImageRequest(request, url) {
-  return request.destination === 'image' || isImageUrl(url);
-}
-
-function isLiqdFrameUrl(url) {
+function isLiqdFrameNavigate(request, url) {
+  if (request.mode !== 'navigate') return false;
   const id = url.searchParams.get('id');
   return id && /^liqd\d+$/.test(id);
 }
@@ -34,13 +32,12 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  const isLiqdFrame = isLiqdFrameUrl(reqUrl);
-
-  if (isLiqdFrame && reqUrl.origin === new URL(self.registration.scope).origin) {
+  if (isLiqdFrameNavigate(event.request, reqUrl)
+      && reqUrl.origin === new URL(self.registration.scope).origin) {
     event.respondWith(
       caches.match('/index.html')
         .then((cached) => cached || caches.match('/') || fetch('/index.html'))
-        .catch(() => new Response('', { status: 503, statusText: 'Offline' }))
+        .catch(() => fetch('/index.html'))
     );
     return;
   }
@@ -57,53 +54,44 @@ self.addEventListener('fetch', (event) => {
           });
         }
         return networkResponse;
-      }).catch(() => {
-        return caches.match(event.request);
-      })
+      }).catch(() => caches.match(event.request))
     );
-  } else {
-    event.respondWith(
-      caches.match(event.request).then((cached) => {
-        if (cached) return cached;
-        return fetch(event.request).then((response) => {
-          if (!response || !response.ok || event.request.method !== 'GET') {
-            return response;
-          }
-          if (isImageRequest(event.request, reqUrl) || isLiqdFrameUrl(reqUrl)) {
-            return response;
-          }
-          const cloned = response.clone();
-          caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, cloned);
-          }).catch(() => {});
-          return response;
-        });
-      }).catch(() =>
-        fetch(event.request).catch(() =>
-          new Response('', { status: 503, statusText: 'Offline' })
-        )
-      )
-    );
+    return;
   }
+
+  event.respondWith(
+    caches.match(event.request).then((cached) => {
+      if (cached) return cached;
+      return fetch(event.request).then((response) => {
+        if (!response || !response.ok || event.request.method !== 'GET') {
+          return response;
+        }
+        if (isImageRequest(event.request, reqUrl)) {
+          return response;
+        }
+        const id = reqUrl.searchParams.get('id');
+        if (id && /^liqd\d+$/.test(id)) {
+          return response;
+        }
+        const cloned = response.clone();
+        caches.open(CACHE_NAME).then((cache) => {
+          cache.put(event.request, cloned);
+        }).catch(() => {});
+        return response;
+      });
+    }).catch(() =>
+      fetch(event.request).catch(() =>
+        new Response('', { status: 503, statusText: 'Offline' })
+      )
+    )
+  );
 });
 
 self.addEventListener('activate', (event) => {
-  event.waitUntil((async () => {
-    const keys = await caches.keys();
-    await Promise.all(
-      keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key))
-    );
-
-    const cache = await caches.open(CACHE_NAME);
-    const requests = await cache.keys();
-    await Promise.all(
-      requests
-        .filter((req) => {
-          const u = new URL(req.url);
-          return isImageUrl(u) || isLiqdFrameUrl(u);
-        })
-        .map((req) => cache.delete(req))
-    );
-  })());
+  event.waitUntil(
+    caches.keys().then((keys) =>
+      Promise.all(keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key)))
+    )
+  );
   self.clients.claim();
 });
