@@ -295,6 +295,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://liqd.bet/?id=reviews</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://liqd.bet/?id=liqd1</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
