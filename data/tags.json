@@ -12,15 +12,11 @@
     "name": "LIQD Casino"
   },
   {
-    "slug": "лиqd",
+    "slug": "likvid",
     "name": "LIQD"
   },
   {
-    "slug": "ликвиd",
-    "name": "LIQD"
-  },
-  {
-    "slug": "ликвит",
+    "slug": "likvit",
     "name": "LIQD"
   },
   {
@@ -32,32 +28,32 @@
     "name": "Liquid bet"
   },
   {
-    "slug": "жидкий",
-    "name": "Жидкий"
+    "slug": "liquid-ru",
+    "name": "Liquid"
   },
   {
-    "slug": "жидкость",
-    "name": "Жидкость"
+    "slug": "liquidity",
+    "name": "Liquidity"
   },
   {
-    "slug": "жидкий-liqd",
-    "name": "Жидкий LIQD"
+    "slug": "liquid-liqd",
+    "name": "Liquid LIQD"
   },
   {
-    "slug": "ridkiy",
-    "name": "Рідкий"
+    "slug": "liquid-uk",
+    "name": "Liquid"
   },
   {
-    "slug": "ridyna",
-    "name": "Рідина"
+    "slug": "liquid-uk-noun",
+    "name": "Liquid"
   },
   {
     "slug": "liquido",
-    "name": "Líquido"
+    "name": "Liquido"
   },
   {
     "slug": "liquido-es",
-    "name": "Líquido"
+    "name": "Liquido"
   },
   {
     "slug": "liquido-it",
@@ -65,7 +61,7 @@
   },
   {
     "slug": "liquido-pt",
-    "name": "Líquido"
+    "name": "Liquido"
   },
   {
     "slug": "liquide",
@@ -73,11 +69,11 @@
   },
   {
     "slug": "flussig",
-    "name": "Flüssig"
+    "name": "Flussig"
   },
   {
     "slug": "flussigkeit",
-    "name": "Flüssigkeit"
+    "name": "Flussigkeit"
   },
   {
     "slug": "vloeibaar",
@@ -93,7 +89,7 @@
   },
   {
     "slug": "vatska",
-    "name": "Vätska"
+    "name": "Vatska"
   },
   {
     "slug": "flytende",
@@ -101,7 +97,7 @@
   },
   {
     "slug": "vaeske",
-    "name": "Væske"
+    "name": "Vaeske"
   },
   {
     "slug": "flydende",
@@ -109,7 +105,7 @@
   },
   {
     "slug": "nestemainen",
-    "name": "Nestemäinen"
+    "name": "Nestemainen"
   },
   {
     "slug": "neste",
@@ -117,7 +113,7 @@
   },
   {
     "slug": "plynny",
-    "name": "Płynny"
+    "name": "Plynny"
   },
   {
     "slug": "ciecz",
@@ -129,7 +125,7 @@
   },
   {
     "slug": "kapalny",
-    "name": "Kapalný"
+    "name": "Kapalny"
   },
   {
     "slug": "kvapalina",
@@ -137,19 +133,19 @@
   },
   {
     "slug": "tekuci",
-    "name": "Tekući"
+    "name": "Tekuci"
   },
   {
     "slug": "tecnost",
-    "name": "Tečnost"
+    "name": "Tecnost"
   },
   {
-    "slug": "techen",
-    "name": "Течен"
+    "slug": "fluid-bg",
+    "name": "Fluid"
   },
   {
-    "slug": "technost",
-    "name": "Течност"
+    "slug": "fluidity-bg",
+    "name": "Fluidity"
   },
   {
     "slug": "lichid",
@@ -157,51 +153,51 @@
   },
   {
     "slug": "folyadek",
-    "name": "Folyadék"
+    "name": "Folyadek"
   },
   {
-    "slug": "folyékony",
-    "name": "Folyékony"
+    "slug": "folykony",
+    "name": "Folykony"
   },
   {
     "slug": "sivi",
-    "name": "Sıvı"
+    "name": "Sivi"
   },
   {
     "slug": "ygro",
-    "name": "Υγρό"
+    "name": "Ygro"
   },
   {
     "slug": "sael",
-    "name": "سائل"
+    "name": "Sael"
   },
   {
     "slug": "nozel",
-    "name": "נוזל"
+    "name": "Nozel"
   },
   {
     "slug": "yeti",
-    "name": "液体"
+    "name": "Yeti"
   },
   {
     "slug": "ekitai",
-    "name": "液体"
+    "name": "Ekitai"
   },
   {
     "slug": "aekche",
-    "name": "액체"
+    "name": "Aekche"
   },
   {
     "slug": "taral",
-    "name": "तरल"
+    "name": "Taral"
   },
   {
     "slug": "khong-laew",
-    "name": "ของเหลว"
+    "name": "Khong Laew"
   },
   {
     "slug": "chat-long",
-    "name": "Chất lỏng"
+    "name": "Chat Long"
   },
   {
     "slug": "cairan",
@@ -220,16 +216,16 @@
     "name": "Sports Betting"
   },
   {
-    "slug": "спортивные-ставки",
-    "name": "Спортивные ставки"
+    "slug": "sports-betting-ru",
+    "name": "Sports betting"
   },
   {
     "slug": "sportsbook",
     "name": "Sportsbook LIQD"
   },
   {
-    "slug": "букмекер",
-    "name": "Букмекер LIQD"
+    "slug": "bookmaker-ru",
+    "name": "Bookmaker LIQD"
   },
   {
     "slug": "bookmaker",
@@ -240,16 +236,16 @@
     "name": "Online Bookmaker LIQD"
   },
   {
-    "slug": "онлайн-букмекер",
-    "name": "Онлайн букмекер LIQD"
+    "slug": "online-bookmaker-ru",
+    "name": "Online bookmaker LIQD"
   },
   {
     "slug": "bet-on-sports",
     "name": "Bet on Sports LIQD"
   },
   {
-    "slug": "ставки-на-спорт",
-    "name": "Ставки на спорт LIQD"
+    "slug": "sports-bets-ru",
+    "name": "Sports bets LIQD"
   },
   {
     "slug": "sports-bets",
@@ -260,24 +256,24 @@
     "name": "Live Betting LIQD"
   },
   {
-    "slug": "лайв-ставки",
-    "name": "Лайв ставки LIQD"
+    "slug": "live-betting-ru",
+    "name": "Live betting LIQD"
   },
   {
     "slug": "odds",
     "name": "Odds LIQD"
   },
   {
-    "slug": "коэффициенты",
-    "name": "Коэффициенты LIQD"
+    "slug": "odds-ru",
+    "name": "Odds LIQD"
   },
   {
     "slug": "football-betting",
     "name": "Football Betting LIQD"
   },
   {
-    "slug": "ставки-на-футбол",
-    "name": "Ставки на футбол LIQD"
+    "slug": "football-betting-ru",
+    "name": "Football betting LIQD"
   },
   {
     "slug": "soccer-betting",
@@ -288,40 +284,40 @@
     "name": "Basketball Betting LIQD"
   },
   {
-    "slug": "ставки-на-баскетбол",
-    "name": "Ставки на баскетбол LIQD"
+    "slug": "basketball-betting-ru",
+    "name": "Basketball betting LIQD"
   },
   {
     "slug": "tennis-betting",
     "name": "Tennis Betting LIQD"
   },
   {
-    "slug": "ставки-на-теннис",
-    "name": "Ставки на теннис LIQD"
+    "slug": "tennis-betting-ru",
+    "name": "Tennis betting LIQD"
   },
   {
     "slug": "hockey-betting",
     "name": "Hockey Betting LIQD"
   },
   {
-    "slug": "ставки-на-хоккей",
-    "name": "Ставки на хоккей LIQD"
+    "slug": "hockey-betting-ru",
+    "name": "Hockey betting LIQD"
   },
   {
     "slug": "baseball-betting",
     "name": "Baseball Betting LIQD"
   },
   {
-    "slug": "ставки-на-бейсбол",
-    "name": "Ставки на бейсбол LIQD"
+    "slug": "baseball-betting-ru",
+    "name": "Baseball betting LIQD"
   },
   {
     "slug": "mma-betting",
     "name": "MMA Betting LIQD"
   },
   {
-    "slug": "ставки-на-мма",
-    "name": "Ставки на ММА LIQD"
+    "slug": "mma-betting-ru",
+    "name": "MMA betting LIQD"
   },
   {
     "slug": "ufc-betting",
@@ -332,24 +328,24 @@
     "name": "Esports Betting LIQD"
   },
   {
-    "slug": "ставки-на-киберспорт",
-    "name": "Ставки на киберспорт LIQD"
+    "slug": "esports-betting-ru",
+    "name": "Esports betting LIQD"
   },
   {
     "slug": "casino",
     "name": "Casino LIQD"
   },
   {
-    "slug": "казино",
-    "name": "Казино LIQD"
+    "slug": "casino-ru",
+    "name": "Casino LIQD"
   },
   {
     "slug": "online-casino",
     "name": "Online Casino LIQD"
   },
   {
-    "slug": "онлайн-казино",
-    "name": "Онлайн казино LIQD"
+    "slug": "online-casino-ru",
+    "name": "Online casino LIQD"
   },
   {
     "slug": "provably-fair",
@@ -360,32 +356,32 @@
     "name": "Crypto Betting LIQD"
   },
   {
-    "slug": "крипто-ставки",
-    "name": "Крипто ставки LIQD"
+    "slug": "crypto-betting-ru",
+    "name": "Crypto betting LIQD"
   },
   {
     "slug": "crypto-casino",
     "name": "Crypto Casino LIQD"
   },
   {
-    "slug": "крипто-казино",
-    "name": "Крипто казино LIQD"
+    "slug": "crypto-casino-ru",
+    "name": "Crypto casino LIQD"
   },
   {
     "slug": "responsible-gambling",
     "name": "Responsible Gambling"
   },
   {
-    "slug": "ответственная-игра",
-    "name": "Ответственная игра LIQD"
+    "slug": "responsible-gaming-ru",
+    "name": "Responsible gaming LIQD"
   },
   {
     "slug": "sportsbook-rules",
     "name": "Sportsbook Rules"
   },
   {
-    "slug": "правила-букмекера",
-    "name": "Правила букмекера LIQD"
+    "slug": "bookmaker-rules-ru",
+    "name": "Bookmaker rules LIQD"
   },
   {
     "slug": "liqd-sport",
@@ -424,8 +420,8 @@
     "name": "Bet LIQD"
   },
   {
-    "slug": "ставки-liqd",
-    "name": "Ставки LIQD"
+    "slug": "bets-liqd",
+    "name": "Bets LIQD"
   },
   {
     "slug": "liqdcasino",
@@ -436,23 +432,23 @@
     "name": "X @liqdcasino"
   },
   {
-    "slug": "liqd-Company",
+    "slug": "liqd-company",
     "name": "LIQD Company"
   },
   {
-    "slug": "liqd-Twitter",
+    "slug": "liqd-twitter",
     "name": "LIQD Twitter"
   },
   {
-    "slug": "liqd-Twitch",
+    "slug": "liqd-twitch",
     "name": "LIQD Twitch"
   },
   {
-    "slug": "liqd-Telegram",
+    "slug": "liqd-telegram",
     "name": "LIQD Telegram"
   },
   {
-    "slug": "liqd-Map",
+    "slug": "liqd-map",
     "name": "LIQD Map"
   },
   {
@@ -465,7 +461,7 @@
   },
   {
     "slug": "liqd-reviews-vk",
-    "name": "liqd reviews"
+    "name": "liqd reviews vkontakte"
   },
   {
     "slug": "liqd-vk-group",
@@ -493,7 +489,7 @@
   },
   {
     "slug": "sportsbook-rules-general-rules",
-    "name": "Sportsbook Rules — I. General Rules"
+    "name": "Sportsbook Rules - I. General Rules"
   },
   {
     "slug": "general-rules",
@@ -501,7 +497,7 @@
   },
   {
     "slug": "sportsbook-rules-soccer",
-    "name": "Sportsbook Rules — Soccer"
+    "name": "Sportsbook Rules Soccer"
   },
   {
     "slug": "soccer",
@@ -509,7 +505,7 @@
   },
   {
     "slug": "sportsbook-rules-tennis",
-    "name": "Sportsbook Rules — Tennis"
+    "name": "Sportsbook Rules Tennis"
   },
   {
     "slug": "tennis",
@@ -517,7 +513,7 @@
   },
   {
     "slug": "sportsbook-rules-basketball",
-    "name": "Sportsbook Rules — Basketball"
+    "name": "Sportsbook Rules Basketball"
   },
   {
     "slug": "basketball",
@@ -525,7 +521,7 @@
   },
   {
     "slug": "sportsbook-rules-american-football",
-    "name": "Sportsbook Rules — American Football"
+    "name": "Sportsbook Rules American Football"
   },
   {
     "slug": "american-football",
@@ -533,7 +529,7 @@
   },
   {
     "slug": "sportsbook-rules-ice-hockey",
-    "name": "Sportsbook Rules — Ice Hockey"
+    "name": "Sportsbook Rules Ice Hockey"
   },
   {
     "slug": "ice-hockey",
@@ -541,7 +537,7 @@
   },
   {
     "slug": "sportsbook-rules-baseball",
-    "name": "Sportsbook Rules — Baseball"
+    "name": "Sportsbook Rules Baseball"
   },
   {
     "slug": "baseball",
@@ -549,7 +545,7 @@
   },
   {
     "slug": "sportsbook-rules-handball",
-    "name": "Sportsbook Rules — Handball"
+    "name": "Sportsbook Rules Handball"
   },
   {
     "slug": "handball",
@@ -557,7 +553,7 @@
   },
   {
     "slug": "sportsbook-rules-volleyball",
-    "name": "Sportsbook Rules — Volleyball"
+    "name": "Sportsbook Rules Volleyball"
   },
   {
     "slug": "volleyball",
@@ -565,7 +561,7 @@
   },
   {
     "slug": "sportsbook-rules-beach-volleyball",
-    "name": "Sportsbook Rules — Beach Volleyball"
+    "name": "Sportsbook Rules Beach Volleyball"
   },
   {
     "slug": "beach-volleyball",
@@ -573,7 +569,7 @@
   },
   {
     "slug": "sportsbook-rules-futsal",
-    "name": "Sportsbook Rules — Futsal"
+    "name": "Sportsbook Rules Futsal"
   },
   {
     "slug": "futsal",
@@ -581,7 +577,7 @@
   },
   {
     "slug": "sportsbook-rules-badminton",
-    "name": "Sportsbook Rules — Badminton"
+    "name": "Sportsbook Rules Badminton"
   },
   {
     "slug": "badminton",
@@ -589,7 +585,7 @@
   },
   {
     "slug": "sportsbook-rules-rugby-union-and-rugby-league",
-    "name": "Sportsbook Rules — Rugby Union and Rugby League"
+    "name": "Sportsbook Rules Rugby Union and Rugby League"
   },
   {
     "slug": "rugby-union-and-rugby-league",
@@ -597,7 +593,7 @@
   },
   {
     "slug": "sportsbook-rules-darts",
-    "name": "Sportsbook Rules — Darts"
+    "name": "Sportsbook Rules Darts"
   },
   {
     "slug": "darts",
@@ -605,7 +601,7 @@
   },
   {
     "slug": "sportsbook-rules-snooker",
-    "name": "Sportsbook Rules — Snooker"
+    "name": "Sportsbook Rules Snooker"
   },
   {
     "slug": "snooker",
@@ -613,7 +609,7 @@
   },
   {
     "slug": "sportsbook-rules-table-tennis",
-    "name": "Sportsbook Rules — Table Tennis"
+    "name": "Sportsbook Rules Table Tennis"
   },
   {
     "slug": "table-tennis",
@@ -621,7 +617,7 @@
   },
   {
     "slug": "sportsbook-rules-bowls",
-    "name": "Sportsbook Rules — Bowls"
+    "name": "Sportsbook Rules Bowls"
   },
   {
     "slug": "bowls",
@@ -629,7 +625,7 @@
   },
   {
     "slug": "sportsbook-rules-cricket",
-    "name": "Sportsbook Rules — Cricket"
+    "name": "Sportsbook Rules Cricket"
   },
   {
     "slug": "cricket",
@@ -637,7 +633,7 @@
   },
   {
     "slug": "sportsbook-rules-squash",
-    "name": "Sportsbook Rules — Squash"
+    "name": "Sportsbook Rules Squash"
   },
   {
     "slug": "squash",
@@ -645,7 +641,7 @@
   },
   {
     "slug": "sportsbook-rules-aussie-rules-football",
-    "name": "Sportsbook Rules — Aussie Rules Football"
+    "name": "Sportsbook Rules Aussie Rules Football"
   },
   {
     "slug": "aussie-rules-football",
@@ -653,7 +649,7 @@
   },
   {
     "slug": "sportsbook-rules-boxing",
-    "name": "Sportsbook Rules — Boxing"
+    "name": "Sportsbook Rules Boxing"
   },
   {
     "slug": "boxing",
@@ -661,7 +657,7 @@
   },
   {
     "slug": "sportsbook-rules-mma",
-    "name": "Sportsbook Rules — MMA"
+    "name": "Sportsbook Rules MMA"
   },
   {
     "slug": "mma",
@@ -669,7 +665,7 @@
   },
   {
     "slug": "sportsbook-rules-golf",
-    "name": "Sportsbook Rules — Golf"
+    "name": "Sportsbook Rules Golf"
   },
   {
     "slug": "golf",
@@ -677,7 +673,7 @@
   },
   {
     "slug": "sportsbook-rules-motorcycle-racing",
-    "name": "Sportsbook Rules — Motorcycle Racing"
+    "name": "Sportsbook Rules Motorcycle Racing"
   },
   {
     "slug": "motorcycle-racing",
@@ -685,7 +681,7 @@
   },
   {
     "slug": "sportsbook-rules-athletics",
-    "name": "Sportsbook Rules — Athletics"
+    "name": "Sportsbook Rules Athletics"
   },
   {
     "slug": "athletics",
@@ -693,7 +689,7 @@
   },
   {
     "slug": "sportsbook-rules-winter-sports",
-    "name": "Sportsbook Rules — Winter Sports"
+    "name": "Sportsbook Rules Winter Sports"
   },
   {
     "slug": "winter-sports",
@@ -701,7 +697,7 @@
   },
   {
     "slug": "sportsbook-rules-formula-1",
-    "name": "Sportsbook Rules — Formula 1"
+    "name": "Sportsbook Rules Formula 1"
   },
   {
     "slug": "formula-1",
@@ -709,7 +705,7 @@
   },
   {
     "slug": "sportsbook-rules-chess",
-    "name": "Sportsbook Rules — Chess"
+    "name": "Sportsbook Rules Chess"
   },
   {
     "slug": "chess",
@@ -717,7 +713,7 @@
   },
   {
     "slug": "sportsbook-rules-kabaddi",
-    "name": "Sportsbook Rules — Kabaddi"
+    "name": "Sportsbook Rules Kabaddi"
   },
   {
     "slug": "kabaddi",
@@ -725,7 +721,7 @@
   },
   {
     "slug": "sportsbook-rules-cycling",
-    "name": "Sportsbook Rules — Cycling"
+    "name": "Sportsbook Rules Cycling"
   },
   {
     "slug": "cycling",
@@ -733,7 +729,7 @@
   },
   {
     "slug": "sportsbook-rules-esports",
-    "name": "Sportsbook Rules — III. Esports"
+    "name": "Sportsbook Rules - III. Esports"
   },
   {
     "slug": "esports",
@@ -741,7 +737,7 @@
   },
   {
     "slug": "sportsbook-rules-esports-solution-betting",
-    "name": "Sportsbook Rules — IV. Esports Solution Betting"
+    "name": "Sportsbook Rules - IV. Esports Solution Betting"
   },
   {
     "slug": "esports-solution-betting",
@@ -749,7 +745,7 @@
   },
   {
     "slug": "sportsbook-rules-greyhound-horse-and-harness-racing",
-    "name": "Sportsbook Rules — V. Greyhound, Horse and Harness Racing"
+    "name": "Sportsbook Rules - V. Greyhound, Horse and Harness Racing"
   },
   {
     "slug": "greyhound-horse-and-harness-racing",
@@ -757,10 +753,206 @@
   },
   {
     "slug": "sportsbook-rules-predictions",
-    "name": "Sportsbook Rules — VI. Predictions"
+    "name": "Sportsbook Rules - VI. Predictions"
   },
   {
     "slug": "predictions",
     "name": "VI. Predictions"
+  },
+  {
+    "slug": "liqd1",
+    "name": "liqd1"
+  },
+  {
+    "slug": "liqd2",
+    "name": "liqd2"
+  },
+  {
+    "slug": "liqd3",
+    "name": "liqd3"
+  },
+  {
+    "slug": "liqd4",
+    "name": "liqd4"
+  },
+  {
+    "slug": "liqd5",
+    "name": "liqd5"
+  },
+  {
+    "slug": "liqd6",
+    "name": "liqd6"
+  },
+  {
+    "slug": "liqd7",
+    "name": "liqd7"
+  },
+  {
+    "slug": "liqd8",
+    "name": "liqd8"
+  },
+  {
+    "slug": "liqd9",
+    "name": "liqd9"
+  },
+  {
+    "slug": "liqd10",
+    "name": "liqd10"
+  },
+  {
+    "slug": "liqd11",
+    "name": "liqd11"
+  },
+  {
+    "slug": "liqd12",
+    "name": "liqd12"
+  },
+  {
+    "slug": "liqd13",
+    "name": "liqd13"
+  },
+  {
+    "slug": "liqd14",
+    "name": "liqd14"
+  },
+  {
+    "slug": "liqd15",
+    "name": "liqd15"
+  },
+  {
+    "slug": "liqd16",
+    "name": "liqd16"
+  },
+  {
+    "slug": "liqd17",
+    "name": "liqd17"
+  },
+  {
+    "slug": "liqd18",
+    "name": "liqd18"
+  },
+  {
+    "slug": "liqd19",
+    "name": "liqd19"
+  },
+  {
+    "slug": "liqd20",
+    "name": "liqd20"
+  },
+  {
+    "slug": "liqd21",
+    "name": "liqd21"
+  },
+  {
+    "slug": "liqd22",
+    "name": "liqd22"
+  },
+  {
+    "slug": "liqd23",
+    "name": "liqd23"
+  },
+  {
+    "slug": "liqd24",
+    "name": "liqd24"
+  },
+  {
+    "slug": "liqd25",
+    "name": "liqd25"
+  },
+  {
+    "slug": "liqd26",
+    "name": "liqd26"
+  },
+  {
+    "slug": "liqd27",
+    "name": "liqd27"
+  },
+  {
+    "slug": "liqd28",
+    "name": "liqd28"
+  },
+  {
+    "slug": "liqd29",
+    "name": "liqd29"
+  },
+  {
+    "slug": "liqd30",
+    "name": "liqd30"
+  },
+  {
+    "slug": "liqd31",
+    "name": "liqd31"
+  },
+  {
+    "slug": "liqd32",
+    "name": "liqd32"
+  },
+  {
+    "slug": "liqd33",
+    "name": "liqd33"
+  },
+  {
+    "slug": "liqd34",
+    "name": "liqd34"
+  },
+  {
+    "slug": "liqd35",
+    "name": "liqd35"
+  },
+  {
+    "slug": "liqd36",
+    "name": "liqd36"
+  },
+  {
+    "slug": "liqd37",
+    "name": "liqd37"
+  },
+  {
+    "slug": "liqd38",
+    "name": "liqd38"
+  },
+  {
+    "slug": "liqd39",
+    "name": "liqd39"
+  },
+  {
+    "slug": "liqd40",
+    "name": "liqd40"
+  },
+  {
+    "slug": "liqd41",
+    "name": "liqd41"
+  },
+  {
+    "slug": "liqd42",
+    "name": "liqd42"
+  },
+  {
+    "slug": "liqd43",
+    "name": "liqd43"
+  },
+  {
+    "slug": "liqd44",
+    "name": "liqd44"
+  },
+  {
+    "slug": "liqd45",
+    "name": "liqd45"
+  },
+  {
+    "slug": "liqd46",
+    "name": "liqd46"
+  },
+  {
+    "slug": "liqd47",
+    "name": "liqd47"
+  },
+  {
+    "slug": "liqd48",
+    "name": "liqd48"
+  },
+  {
+    "slug": "liqd49",
+    "name": "liqd49"
   }
 ]
