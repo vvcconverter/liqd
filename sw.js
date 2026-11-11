@@ -1,4 +1,4 @@
-const CACHE_NAME = 'liqd-v17';
+const CACHE_NAME = 'liqd-v18';
 const ASSETS = [
   '/',
   '/index.html',
@@ -60,7 +60,6 @@ self.addEventListener('fetch', (event) => {
   }
 
     if (reqUrl.origin !== self.location.origin) {
-    event.respondWith(fetch(event.request, { cache: 'no-store' }));
     return;
   }
 
