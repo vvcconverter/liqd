@@ -1,4 +1,4 @@
-const CACHE_NAME = 'liqd-v12';
+const CACHE_NAME = 'liqd-v17';
 const ASSETS = [
   '/',
   '/index.html',
@@ -59,7 +59,32 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  event.respondWith(
+    if (reqUrl.origin !== self.location.origin) {
+    event.respondWith(fetch(event.request, { cache: 'no-store' }));
+    return;
+  }
+
+  const isHtmlNav = event.request.mode === 'navigate'
+    || reqUrl.pathname === '/'
+    || reqUrl.pathname === '/index.html'
+    || reqUrl.pathname.endsWith('.html');
+
+  if (isHtmlNav) {
+    event.respondWith(
+      fetch(event.request).then((networkResponse) => {
+        if (networkResponse && networkResponse.ok) {
+          const cloned = networkResponse.clone();
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, cloned);
+          }).catch(() => {});
+        }
+        return networkResponse;
+      }).catch(() => caches.match(event.request).then((cached) => cached || caches.match('/index.html') || caches.match('/')))
+    );
+    return;
+  }
+
+event.respondWith(
     caches.match(event.request).then((cached) => {
       if (cached) return cached;
       return fetch(event.request).then((response) => {
