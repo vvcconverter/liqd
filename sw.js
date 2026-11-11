@@ -1,4 +1,4 @@
-const CACHE_NAME = 'liqd-v20';
+const CACHE_NAME = 'liqd-v21';
 const ASSETS = [
   '/',
   '/index.html',
