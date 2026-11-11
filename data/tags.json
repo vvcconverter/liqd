@@ -468,6 +468,10 @@
     "name": "liqd group vkontakte"
   },
   {
+    "slug": "liqd-registration",
+    "name": "registration with liqd"
+  },
+  {
     "slug": "live-support",
     "name": "Live Support"
   },
